@@ -70,8 +70,9 @@ document.getElementById('form').addEventListener('submit',function(event){
         console.log(username,email,password,cpassword);
     }
 
-    username.value = ' ';
-    email.value = ' ';
-    password.value = ' ';
-    cpassword.value = ' ';
+    // username.value = ' ';
+    // email.value = ' ';
+    // password.value = ' ';
+    // cpassword.value = ' ';
+    this.reset();
 })
