@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 100px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(71, 71, 190);
+}
+#form{
+    width: 30vw;
+    height: 60vh;
+    border: 1px solid rgb(202,198,198);
+    box-shadow: 2px 2px 5px pink;
+    margin: auto;
+    display: grid;
+    padding: 20px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label{
+    font-size: 20px;
+    color: rgb(71, 71, 190);
+    margin-bottom: 5px;
+}
+
+.form-group input{
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.form-group span{
+    margin-top: 5px;
+    color: red;
+}
+
+button{
+    height: 30px;
+    background-color: rgb(71, 71, 190);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+}
